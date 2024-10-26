@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .container{
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 7px 6px 3px #000;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card .container svg{
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.card .container h3{
+    margin: 15px ;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px;
+    font-weight: 700;
+}
+.card .container span{
+    margin: 15px ;
+    display: block;
+    
+}
+.card .container h1{
+    font-size: 25px;
+    margin: 15px ;
+}
+.card .container p{
+    margin: 15px ;
+    color: hsl(0, 0%, 42%);
+    line-height: 1.3;
+    
+}
+.card .container .icon{
+    display: flex;
+    margin: 15px ;
+    align-items: center;
+}
+.card .container .icon h3{
+    background:none
+}
+.card .container .icon img{
+    width: 40px;
+    height: 40px;
+}
